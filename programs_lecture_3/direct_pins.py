@@ -1,9 +1,10 @@
 import random
 
+# place pins on a close line in valid configurations only
 N = 15
 L = 10.0
 sigma = 0.1
-n_configs = 100
+n_configs = 1000
 for config in range(n_configs):
     x = []
     while len(x) < N:
